@@ -4,10 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35c90e48-1579-4100-a37f-ad97c6ebe5bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pnpm-workspace.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/turbo.json" afterDir="false" />
+    <list default="true" id="35c90e48-1579-4100-a37f-ad97c6ebe5bb" name="Changes" comment="Initial Commit - Setting up Next.js frontends with turborepo">
+      <change afterPath="$PROJECT_DIR$/frontend/apps/catalog/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/apps/container/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/src/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/src/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/src/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/src/app/page.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/src/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/catalog/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/src/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/src/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/src/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/src/app/page.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/src/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/apps/checkout/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +59,9 @@
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,7 +80,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Family/IdeaProjects/TimepieceEmporium/frontend",
+    "last_opened_file_path": "C:/Users/Family/IdeaProjects/TimepieceEmporium/frontend/apps/container",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +96,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Family\IdeaProjects\TimepieceEmporium\frontend\apps\container" />
+      <recent name="C:\Users\Family\IdeaProjects\TimepieceEmporium\frontend\apps\catalog" />
       <recent name="C:\Users\Family\IdeaProjects\TimepieceEmporium\frontend" />
     </key>
   </component>
@@ -78,11 +112,26 @@
       <workItem from="1703282003166" duration="505000" />
       <workItem from="1703282522920" duration="387000" />
       <workItem from="1703282920300" duration="1761000" />
-      <workItem from="1703284702984" duration="10576000" />
+      <workItem from="1703284702984" duration="14962000" />
+      <workItem from="1703625478864" duration="1738000" />
+      <workItem from="1703631372411" duration="9776000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit - Setting up Next.js frontends with turborepo">
+      <option name="closed" value="true" />
+      <created>1703453637950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703453637950</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit - Setting up Next.js frontends with turborepo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit - Setting up Next.js frontends with turborepo" />
   </component>
 </project>
