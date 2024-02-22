@@ -1,0 +1,17 @@
+name: Frontend Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a script
+        working-directory: frontend/app
+        run: docker build .
